@@ -1,0 +1,88 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+.hero-title{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 6rem;
+}
+.hero-subtitle{
+    color: #D4AF37;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+.hero-subtitle::before,
+.hero-subtitle::after{
+    content: "";
+    flex: 8;
+    height: 2px;
+    background: #c9a434;
+    margin: 0 20px;
+}
+.hero__tagline{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    
+}
+.hero__description{
+    color: #666666;
+    font-family: "Poppins";
+    font-size: 17px;
+    max-width: 600px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 20px;
+    @media (max-width: 500px) {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+.hero-btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    @media (max-width: 500px) {
+        width: 100%;
+    }
+}
+.hero-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.active{
+    background-color: #000;
+    color: white;
+}
+.fish{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: -1;
+}
+.wave{
+    position: absolute;
+    left: 20px;
+    bottom: -90px;
+    z-index: -1;
+}

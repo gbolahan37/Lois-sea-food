@@ -10,12 +10,12 @@ function Navbar() {
     function openNav (){
         meunRef.current.style.display = "block"
         openRef.current.style.display = "none"
-        closeRef.current.style.display = "block"
+        closeRef.current.style.display = "flex"
     }
 
     function closeNav (){
         meunRef.current.style.display = "none"
-        openRef.current.style.display = "block"
+        openRef.current.style.display = "flex"
         closeRef.current.style.display = "none"
     }
 
@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <div className="navbar">
         <div className="logo">
-            <h2>Lois Sea Food</h2>
+            <img src="/Lois.png" alt="" className='logo-img' />
         </div>
         <ul className='nav-links' ref={meunRef}>
             <li>Home</li>

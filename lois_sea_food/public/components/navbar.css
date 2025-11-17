@@ -10,6 +10,9 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
+.logo-img{
+    width: 40px;
+}
 .nav-links{
     display: flex;
     align-items: center;
@@ -26,13 +29,15 @@
         margin-top: 0;
         border-bottom: 1.5px solid #F2F2F2;
         display: none;
+        background-color: #F2F2F2;
     }
 }
 .nav-links li{
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
     cursor: pointer;
+    transition: 0.5s;
     
      @media (max-width: 573px) {
         margin-top: 10px;
@@ -40,6 +45,7 @@
      }
 }
 .nav-links li:hover{
+    color: #D4AF37;
     @media (max-width: 573px) {
         background-color: rgb(240, 240, 240);
         width: 100%;
@@ -56,20 +62,40 @@
     align-items: center;
     border-radius: 6px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.cart:hover{
+    background-color: #F2F2F2;
 }
 .nav-icons{
     display: flex;
-    gap: 32px;
+    gap: 15px;
     align-items: center;
 }
 .ham{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
     display: none;
     cursor: pointer;
+    transition: 0.5s;
     @media (max-width: 573px) {
-        display: block;
+        display: flex;
     }
 }
+.ham:hover{
+    background-color: #D4AF37;
+}
 .close{
-    display: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: none;
 }
