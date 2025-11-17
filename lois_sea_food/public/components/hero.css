@@ -18,8 +18,9 @@
     align-items: center;
     gap: 20px;
 }
-.subtitle-wrapper .line {
+.line {
   flex: 1;
+  max-width: 100px;
   border-bottom: 2px solid #c9a434;
 }
 .hero-subtitle{
