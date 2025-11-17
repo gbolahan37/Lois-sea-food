@@ -1,0 +1,75 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+    padding: 20px ;
+    border-bottom: 1px solid #F2F2F2;
+}
+.logo h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    @media (max-width: 573px) {
+        position: absolute;
+        display: block;
+        gap: 30px;
+        top: 80px;
+        left: 0;
+        right: 0;
+        padding: 0 10px 20px 10px;
+        margin-top: 0;
+        border-bottom: 1.5px solid #F2F2F2;
+        display: none;
+    }
+}
+.nav-links li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    
+     @media (max-width: 573px) {
+        margin-top: 10px;
+        padding: 10px 10px;
+     }
+}
+.nav-links li:hover{
+    @media (max-width: 573px) {
+        background-color: rgb(240, 240, 240);
+        width: 100%;
+        
+        border-radius: 3px;
+    }
+}
+.cart{
+    border: 1.5px solid #F2F2F2;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.nav-icons{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.ham{
+    display: none;
+    cursor: pointer;
+    @media (max-width: 573px) {
+        display: block;
+    }
+}
+.close{
+    display: none;
+    cursor: pointer;
+}
