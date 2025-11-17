@@ -11,7 +11,11 @@ function Hero() {
     <div className="hero">
       <div className="hero-inner">
         <h1 className="hero-title">Lois</h1>
-        <h2 className="hero-subtitle">Seafood</h2>
+        <div className="subtitle-wrapper">
+          <div className="line"></div>
+          <h2 className="hero-subtitle">Seafood</h2>
+          <div className="line"></div>
+        </div>
         <p class="hero__tagline">Delicious Fresh Seafood</p>
         <p class="hero__description">
           A great love from the sea. Premium quality range of fresh seafood

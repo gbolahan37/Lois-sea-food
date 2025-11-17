@@ -1,0 +1,32 @@
+.explore{
+    background-color: #F5F5F5;
+    padding: 90px 20px;
+}
+.explore-header{
+    text-align: center;
+}
+.explore-title{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.explore-subtitle{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: #666666;
+    font-weight: 500;
+}
+.explorecard-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 32px;
+    margin-top: 40px;
+}
+.banner{
+    height: 300px;
+    overflow: hidden;
+    margin-top: 100px;
+    
+}
+.banner img{
+    object-fit: cover;
+}

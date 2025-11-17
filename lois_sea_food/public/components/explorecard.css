@@ -1,0 +1,29 @@
+.Explorecard{
+    background-color: #FFFFFF;
+    padding: 40px ;
+    border-radius: 16px;
+    text-align: center;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+}
+.card-icon{
+    background-color: #F5F5F5;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: 400;
+}
+.card-describtion{
+    font-family: "Lato", sans-serif;
+    color: #666666;
+    font-size: 16px;
+}
