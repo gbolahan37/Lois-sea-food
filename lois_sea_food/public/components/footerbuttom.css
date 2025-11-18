@@ -1,0 +1,29 @@
+.footer-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 20px 0;
+}
+.footer-buttom span{
+    color: #666666;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.media-icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #1E2939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.media-icon:hover{
+    border: 1px solid #D4AF37;
+}
