@@ -1,19 +1,19 @@
 import './App.css'
-import Navbar from '../public/components/Navbar'
-import Hero from '../public/components/Hero'
-import ExploreMeun from '../public/components/ExploreMeun'
-import Footer from '../public/components/Footer'
+import Home from './Pages/Home'
+import Menu from './Pages/Menu'
+import { BrowserRouter,Route, Routes } from 'react-router-dom'
+
 
 function App() {
   
 
   return (
-    <>
-    <Navbar />
-    <Hero />
-    <ExploreMeun />
-    <Footer />
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/menu' element={<Menu />} />
+    </Routes>
+    </BrowserRouter>
   )
 }
 

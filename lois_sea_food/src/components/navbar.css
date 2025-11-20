@@ -37,19 +37,21 @@
         z-index: 1000;
     }
 }
-.nav-links li{
+.link{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
+    color: black;
     
      @media (max-width: 573px) {
         margin-top: 10px;
         padding: 10px 10px;
      }
 }
-.nav-links li:hover{
+.link:hover{
     color: #D4AF37;
     @media (max-width: 573px) {
         background-color: rgb(240, 240, 240);
