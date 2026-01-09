@@ -21,13 +21,13 @@
     grid-gap: 32px;
     margin-top: 40px;
 }
-.banner{
+.Carousel{
     height: 300px;
     overflow: hidden;
     margin-top: 100px;
     
 }
-.banner img{
+.Carousel img{
     object-fit: cover;
 }
 .wrapper{

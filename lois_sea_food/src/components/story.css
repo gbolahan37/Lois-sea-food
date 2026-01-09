@@ -1,0 +1,35 @@
+img{
+    width: 100%;
+}
+.story-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 32px;
+    align-items: center;
+
+    @media (max-width: 1030px) {
+        display: block;
+    }
+}
+.about-image img{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    @media (max-width: 1030px) {
+        width: 100%;
+    }
+}
+.story span{
+    color: #D4AF37;
+}
+.story-header{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Inter" sans-serif;
+}
+.story-paragraph{
+    font-size: 18px;
+    color: #666666;
+}

@@ -1,0 +1,58 @@
+.choice{
+    background-color: #F5F5F5;
+    padding: 30px 20px;
+
+}
+.choice-header h3{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Inter";
+}
+.choice-header p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    font-family: "Inter";
+    color: #666666;
+}
+.reasons-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 32px;
+    margin-top: 40px;
+}
+.reasoncard{
+    background-color: #FFFFFF;
+    padding: 40px ;
+    border-radius: 16px;
+    /* text-align: center; */
+}
+.reasoncard:hover{
+    border: 1px solid black;
+}
+.reasoncard-content{
+    display: flex;
+    /* justify-content: center; */
+}
+.reasoncard-icon{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.reasoncard-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+.reasoncard-describtion{
+    font-family: "Lato", sans-serif;
+    color: #666666;
+    font-size: 12px;
+}
+
+

@@ -17,7 +17,7 @@ function ExploreMeun() {
         <div className="explorecard-wrapper">
             <Explorecard />
         </div>
-        <div className="banner">
+        <div className="Carousel">
             <img src="/seafoodbanner.jpg" alt="" />
         </div>
         <div className="wrapper">

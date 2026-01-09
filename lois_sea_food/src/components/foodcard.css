@@ -1,0 +1,53 @@
+.card{
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card-image{
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.card-image img{
+    height: 200px;
+    object-fit: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+.card-image img:hover{
+    border-radius: 10px 10px 0 0;
+    transform: scale(1.5);
+    object-fit: cover;
+    object-position: center;
+}
+.card-description{
+    padding: 20px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+.name h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.name span{
+    color: #D4AF37;
+    
+}
+.food-description{
+    margin-top: 20px;
+}
+.card-btn{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}

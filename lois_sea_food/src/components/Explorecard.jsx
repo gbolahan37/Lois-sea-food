@@ -13,7 +13,7 @@ const Cards = ({title, subtitle, icon}) => {
           <p className="card-describtion">
               {subtitle}
           </p>
-    </div>
+        </div>
     )
 }
 function Explorecard() {
